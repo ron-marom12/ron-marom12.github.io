@@ -34,7 +34,7 @@ section {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#about-me h2, #projects h2, #volunteering-hobbies h2, #courses h2, #contact-info h2 {
+#about-me h2, #skills-languages h2, #education h2, #projects h2, #volunteering-hobbies h2, #courses h2, #contact-info h2 {
     border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -62,7 +62,7 @@ section {
     border-radius: 8px;
 }
 
-.project:hover, .course:hover {
+.education:hover, .skills-languages:hover, .project:hover, .course:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
