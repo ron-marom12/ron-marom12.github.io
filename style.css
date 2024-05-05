@@ -30,7 +30,7 @@ img.profile-pic {
     width: 150px;
 }
 
-.about-me-content, .course, .project, .volunteering-hobbies, #skills-languages, #education {
+section {
     background: #fff;
     margin: 20px;
     padding: 20px;
@@ -47,34 +47,32 @@ a:hover {
     text-decoration: underline;
 }
 
-.linkedin-button, .github-button, .button {
+button, .button {
     padding: 10px 20px;
     margin: 10px 2px;
-    background: #0077b5; /* LinkedIn blue */
+    background: #4CAF50; /* Green */
     color: white;
     border-radius: 5px;
     text-align: center;
-    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.github-button {
-    background: #333; /* GitHub dark */
+button:hover, .button:hover {
+    background-color: #45a049;
 }
 
 h1, h2, h3 {
     color: #333;
 }
 
-#skills-languages h2, #education h2, #skills-languages h3 {
-    margin-top: 0;
-}
-
-#skills-languages ul, #education ul {
+ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-#skills-languages li, #education li {
+li {
     margin-bottom: 10px;
 }
 
@@ -87,20 +85,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #45a049;
-}
-
-/* Additional specific styling as needed */
