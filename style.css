@@ -55,14 +55,14 @@ section {
     margin-bottom: 20px;
 }
 
-.education, .skills-languages-class, .course, .project, .volunteering-hobbies {
+.education-class, .skills-languages-class, .course, .project, .volunteering-hobbies {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
 }
 
-.education:hover, .skills-languages-class:hover, .project:hover, .course:hover {
+.education-class:hover, .skills-languages-class:hover, .project:hover, .course:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
